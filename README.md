@@ -26,7 +26,11 @@ Config based on [Mailserver mit Dovecot, Postfix, MySQL und Rspamd unter Debian 
 ```
 
 ## Dependencies
-- [postfix via Bundlewrap](https://github.com/DasLampe/bw.bundle.postfix), it's possible to run dovecot without but make no sense
+- [pkg_wrapper for Bundlewrap](https://github.com/DasLampe/bw.item.pkg_wrapper)
 
 ## Suggestions
-- [rspamd via bundlewrap](https://github.com/DasLampe/bw.bundle.rspamd)
+- [Postfix via Bundlewrap](https://github.com/DasLampe/bw.bundle.postfix), it's possible to run dovecot without but make no sense
+- [Rspamd via bundlewrap](https://github.com/DasLampe/bw.bundle.rspamd)
+
+## Author
+André Flemming <daslampe@lano-crew.org>
