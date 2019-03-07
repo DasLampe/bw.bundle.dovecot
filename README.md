@@ -1,5 +1,7 @@
 # Dovecot via Bundlewrap
 Install Dovecot via Bundlewrap.
+
+
 Config based on [Mailserver mit Dovecot, Postfix, MySQL und Rspamd unter Debian 9 Stretch](https://thomas-leister.de/mailserver-debian-stretch/)
 
 
@@ -25,3 +27,6 @@ Config based on [Mailserver mit Dovecot, Postfix, MySQL und Rspamd unter Debian 
 
 ## Dependencies
 - [postfix via Bundlewrap](https://github.com/DasLampe/bw.bundle.postfix), it's possible to run dovecot without but make no sense
+
+## Suggestions
+- [rspamd via bundlewrap](https://github.com/DasLampe/bw.bundle.rspamd)
