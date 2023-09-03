@@ -21,6 +21,7 @@ defaults = {
 
         'port_imap': 143,
         'port_imaps': 993,
+        'port_sieve': 4190,
 
         'database': {
             'user': 'vmail_bw',
