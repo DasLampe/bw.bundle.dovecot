@@ -7,7 +7,7 @@ svc_systemd = {
         'enabled': True,
         'running': True,
         'needs': [
-            'pkg_apt:dovecot-core',
+            'pkg_apt:',
             'file:/etc/dovecot/dovecot.conf',
         ],
     }
