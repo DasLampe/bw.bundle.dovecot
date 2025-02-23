@@ -54,6 +54,9 @@ files = {
         'owner': config.get('user'),
         'group': config.get('group'),
         'mode': '0440',
+        'needs': [
+            'pkg_apt:dovecot-core',
+        ]
     }
 }
 
@@ -62,4 +65,7 @@ for file in ['spam-global.sieve', 'learn-spam.sieve', 'learn-ham.sieve']:
         'source': f'var/vmail/sieve/global/{file}',
         'owner': config.get('mail_user'),
         'group': config.get('mail_group'),
+        'needs': [
+            f'directory:{config.get("mail_dir")}/sieve/global',
+        ],
     }
